@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#dedede;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.dropdwn{
+    margin: 0 auto;
+}
+nav{
+    height: 60px;
+    background: #2c3e50;
+    box-shadow: 0 10px 15px rgba(0,0, 0,0.1);
+}
+.private{
+    height: 30px;
+    background: #c2d0dd;
+    box-shadow: 0 10px 15px rgba(0,0, 0,0.1);
+}
+.private a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    padding: 5px 0 0 80px;
+    width: 150px;
+    height: auto;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 100px;
+}
+nav ul li{
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 16px;
+}
+nav ul li a:hover,.active{
+    background: #243342;
+    color: white;
+    
+}
+.private a:hover,.private .active{
+    background: #c2d0dd;
+    color: rgb(53, 50, 50);
+
+}
+
+nav ul ul{
+    position: absolute;
+    top:60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+    z-index: 3000;
+
+}
+nav ul ul li{
+    width: 220px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top:-60px;
+    left:220px;
+}
+form .form-body{
+    padding: 10px;
+    background-color:#fff;
+  }
+   form h5, thead{
+    background-color:#2c3e50 ;
+    font-weight: bold;
+    color: #fff;
+  margin: 0;
+  padding: 10px;
+  }
+   form h5{
+    font-size: 27px;
+    
+  }
+   form{
+    color:rgb(59, 63, 60);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color:  rgba(0, 0, 0, 0.05) ;
+   
+    min-height: 300px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+    border-radius: 2%;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
